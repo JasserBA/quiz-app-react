@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+  color: red;
+  background-color: var(--dark);
+  padding: 1.8rem;
+}
+
+.score-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Press Start 2P', cursive;
+  color: var(--light);
+  border-radius: var(--seconarydRadiusSize);
+  padding: 45px;
+  box-Shadow: 10px 10px 60px 10px var(--incorrect);
+  font-size: xx-large;
+  line-height: 2.5rem;
+}
+
+.playagain-button {
+  margin: 2rem 0;
+}
+
+.question-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: var(--dark);
+  border-radius: var(--seconarydRadiusSize);
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  box-shadow: 10px 10px 42px 0px var(--light);
+  display: grid;
+  gap: 1rem;
+}
+
+.question-count {
+  font-size: 1.5rem;
+  color: var(--light);
+}
+
+.question-count span {
+  font-size: 3rem;
+}
+
+.question-text {
+  font-size: x-large;
+  color: var(--light);
+}
+
+.answer-section {
+  display: grid;
+  gap: 1rem;
+}
+
+.answer-button {
+  width: 100%;
+  font-size: large;
+  color: var(--dark);
+  background-color: var(--light);
+  padding: 10px;
+  display: block;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/*Mobile devices*/
+@media (min-width:320px) and (max-width:768px) {
+  .nav {
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .score-section {
+    padding: 30px;
+  }
+
+  .question-section {
+    width: 95%;
+  }
+
+  .question-count span {
+    font-size: 2.5rem;
+  }
+
+  .question-text {
+    font-size: x-large;
+    color: var(--light);
+  }
+
+}
+
+/*medium devices*/
+@media (min-width:769px) and (max-width:1024px) {
+  .score-section {
+    width: 80%;
+    padding: 30px;
+    font-size: x-large;
+  }
+
+  .question-section {
+    width: 95%;
+  }
+
+  .question-count span {
+    font-size: 2.5rem;
+  }
+
+  .question-text {
+    font-size: x-large;
+    color: var(--light);
   }
 }

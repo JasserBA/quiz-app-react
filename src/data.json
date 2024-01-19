@@ -1,0 +1,116 @@
+{
+  "Football": [
+    {
+      "questionText": "Who is the highest goal scorer in the history of football?",
+      "answerOptions": [
+        {"answerText": "Lionel Messi", "isCorrect": false},
+        {"answerText": "Pele", "isCorrect": false},
+        {"answerText": "Cristiano Ronaldo", "isCorrect": true},
+        {"answerText": "Diego Maradona", "isCorrect": false}
+      ]
+    },
+    {
+      "questionText": "Which team has never won the Champions League?",
+      "answerOptions": [
+        {"answerText": "Manchester City", "isCorrect": false},
+        {"answerText": "Liverpool", "isCorrect": false},
+        {"answerText": "AC Milan", "isCorrect": false},
+        {"answerText": "Arsenal", "isCorrect": true}
+      ]
+    },
+    {
+      "questionText": "Which team has won the most World Cups?",
+      "answerOptions": [
+        {"answerText": "England", "isCorrect": false},
+        {"answerText": "Germany", "isCorrect": false},
+        {"answerText": "Spain", "isCorrect": false},
+        {"answerText": "Brazil", "isCorrect": true}
+      ]
+    },
+    {
+      "questionText": "Who was the top scorer of the 2018 FIFA World Cup?",
+      "answerOptions": [
+        {"answerText": "Cristiano Ronaldo", "isCorrect": false},
+        {"answerText": "Neymar Jr", "isCorrect": false},
+        {"answerText": "Harry Kane", "isCorrect": true},
+        {"answerText": "Lionel Messi", "isCorrect": false}
+      ]
+    }
+  ],
+  "Gaming": [
+    {
+      "questionText": "Which game features the character Kratos?",
+      "answerOptions": [
+        {"answerText": "Assassin's Creed", "isCorrect": false},
+        {"answerText": "Elden Rings", "isCorrect": false},
+        {"answerText": "Halo", "isCorrect": false},
+        {"answerText": "God of War", "isCorrect": true}
+      ]
+    },
+    {
+      "questionText": "Which popular game features a battle royale mode?",
+      "answerOptions": [
+        {"answerText": "Fortnite", "isCorrect": true},
+        {"answerText": "Minecraft", "isCorrect": false},
+        {"answerText": "The Sims", "isCorrect": false},
+        {"answerText": "Overwatch", "isCorrect": false}
+      ]
+    },
+    {
+      "questionText": "In the game \"League of Legends,\" what category does the character Ahri belong to?",
+      "answerOptions": [
+        {"answerText": "Assassin", "isCorrect": false},
+        {"answerText": "Tank", "isCorrect": false},
+        {"answerText": "Support", "isCorrect": false},
+        {"answerText": "Mage", "isCorrect": true}
+      ]
+    },
+    {
+      "questionText": "Which gaming console is produced by Sony?",
+      "answerOptions": [
+        {"answerText": "Xbox", "isCorrect": false},
+        {"answerText": "Nintendo Switch", "isCorrect": false},
+        {"answerText": "PlayStation", "isCorrect": true},
+        {"answerText": "Atari", "isCorrect": false}
+      ]
+    }
+  ],
+  "Mathematics": [
+    {
+      "questionText": "What is the value of Pi (π) to two decimal places?",
+      "answerOptions": [
+        {"answerText": "3.14", "isCorrect": true},
+        {"answerText": "2.72", "isCorrect": false},
+        {"answerText": "1.61", "isCorrect": false},
+        {"answerText": "4.39", "isCorrect": false}
+      ]
+    },
+    {
+      "questionText": "What is the order of operations in mathematics?",
+      "answerOptions": [
+        {"answerText": "+, -, *, /", "isCorrect": false},
+        {"answerText": "*, /, +, -", "isCorrect": true},
+        {"answerText": "-, +, /, *", "isCorrect": false},
+        {"answerText": "/, *, -, +", "isCorrect": false}
+      ]
+    },
+    {
+      "questionText": "What is the value of e^0?",
+      "answerOptions": [
+        {"answerText": "0", "isCorrect": false},
+        {"answerText": "1", "isCorrect": true},
+        {"answerText": "e", "isCorrect": false},
+        {"answerText": "undefined", "isCorrect": false}
+      ]
+    },
+    {
+      "questionText": "What is the derivative of 3x^2 with respect to x?",
+      "answerOptions": [
+        {"answerText": "5x", "isCorrect": false},
+        {"answerText": "x/2", "isCorrect": false},
+        {"answerText": "6x", "isCorrect": true},
+        {"answerText": "3x", "isCorrect": false}
+      ]
+    }
+  ]
+}
