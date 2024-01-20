@@ -1,4 +1,4 @@
-# React Quiz App
+# React Quiz Application
 
 # Demo Project
 ### https://quiz-app-react-jasserba.vercel.app/
